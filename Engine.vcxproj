@@ -21,10 +21,14 @@
   <ItemGroup>
     <ClCompile Include="Source\App.cpp" />
     <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Renderer\Direct3D.cpp" />
+    <ClCompile Include="Source\Renderer\Renderer.cpp" />
     <ClCompile Include="Source\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\App.h" />
+    <ClInclude Include="Source\Renderer\Direct3D.h" />
+    <ClInclude Include="Source\Renderer\Renderer.h" />
     <ClInclude Include="Source\Window.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
